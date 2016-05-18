@@ -1,0 +1,55 @@
+<div class="m-moulde">
+	<header>
+		我爱钓鱼
+	</header>
+
+	<section>
+		<div class="banner">
+			<div class="swiper-container" id="banner-swiper">
+    		<div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="/webapp/src/images/2.jpg" /></div>
+	        <div class="swiper-slide"><img src="/webapp/src/images/3.jpg" /></div>
+	        <div class="swiper-slide"><img src="/webapp/src/images/03.jpg" /></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+
+
+		</div>
+		<div class="mine">
+			<ul class="ul1">
+				<li>
+				<p><span class="yo-ico">&#xe67f;</span></p>
+				<b><h3>鱼获战报</h3><i>钓鱼牛人的保护圈</i></b>
+				</li>
+				<li>
+				<p><span class="yo-ico">&#xe603;</span></p>
+				<b><h3>垂钓技巧</h3><i>选装、调漂、经验</i></b>
+				</li>
+			</ul>
+			<ul class="ul1" id="ul2">
+				<li>
+				<p><span class="yo-ico">&#xe67b;</span></p>
+				<b><h3>钓鱼段子</h3><i>美女、幽默、搞笑</i></b>
+				</li>
+				<li>
+				<p><span class="yo-ico">&#xe633;</span></p>
+				<b><h3>鱼界新闻</h3><i>每日钓鱼界大事件</i></b>
+				</li>
+			</ul>
+			<ul class="ul1" id="ul3">
+				<li>
+				<p><span class="yo-ico">&#xe60f;</span></p>
+				<b><h3>发布鱼获</h3><i>分享您的鱼获成果</i></b>
+				</li>
+				<li>
+				<p><span class="yo-ico">&#xe600;</span></p>
+				<b><h3>我的信息</h3><i>设备与我相关</i></b>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	
+</div>

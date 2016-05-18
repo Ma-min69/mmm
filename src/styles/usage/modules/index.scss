@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0;
+}
+.m-moulde{
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+   @include flexbox();
+}
+
+
+body, html{
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  width: 100%;
+  height: .44rem;
+  background:  #F2F2F2;
+  text-align: center;
+  line-height: .44rem;
+  font-size: 24px;
+  color: #4485E3;
+
+}
+section{
+  flex:1;
+  background: url("/webapp/src/images/00.jpg") no-repeat;
+  background-size: 100% 100%;
+  .banner{
+    width: 100%;
+    height: 1.6rem;
+    #banner-swiper{
+      width:100%;
+      height:100%;
+       img{
+      width: 100%;
+      height: 100%;
+    }
+    }
+
+
+ 
+  }
+  .mine{
+    width: 95%;
+    height: 2.1rem;
+    margin:.1rem auto;
+    .ul1{
+      width: 100%;
+      height: 0.69rem;
+      background: #fff;
+      border-bottom: 1px solid #D8D8D8;
+       @include flexbox();
+       li{
+       flex:1;
+       
+       border-left:1px solid #E1E1E1;
+      p{
+        display: inline-block;
+        width: 30%;
+        height: 0.69rem;
+       
+        float: left;
+        span{
+          display: block;
+          width: 0.38rem;
+          height: 0.38rem;
+          background:#88CB1C;
+          margin:0.15rem auto;
+          border-radius: 50%;
+          font-size:20px;
+          text-align: center;
+          line-height: 0.38rem;
+          color: white;
+        }
+      }
+      b{
+        display: inline-block;
+        width: 70%;
+        height: 0.69rem;
+        float: right;
+        h3{
+          width: 100%;
+          height: 0.3rem;      
+          line-height: 0.4rem;
+          color: #80CE20;
+        }
+        i{
+          display: block;
+          width: 100%;
+          height: 0.39rem;
+          font-size: 10px;
+          color: #7F7F7F;
+          line-height: 0.2rem;
+        }
+      }
+       }
+       li:nth-of-type(1){
+        border-left:0;
+        
+       }
+        li:nth-of-type(2){
+          span{
+            background:#FF9E0C;           
+          }
+          h3{
+              color: #FF9E0C
+            }
+        }
+    }
+  }
+}
+#ul2{
+  li:nth-child(1){
+    span{
+      background:#05B9D2;
+    }
+    h3{
+      color: #05B9D2
+    }
+  }
+  li:nth-child(2){
+    span{
+      background:#0B84F9;
+    }
+    h3{
+      color:#0B84F9;
+    }
+  }
+}
+#ul3{
+   border-bottom:0;
+  li:nth-child(1){
+    span{
+      background:#EA2700;
+    }
+    h3{
+      color: #EA2700;
+    }
+  }
+  li:nth-child(2){
+    span{
+      background:#49DB9C;
+    }
+    h3{
+      color:#49DB9C;
+    }
+  }
+}
+
